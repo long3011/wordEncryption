@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+#options{
+    width: 60%;
+    height: 5rem;
+    text-align: center;
+}
+#start{
+    width: 30%;
+    height: 5rem;
+        text-align: center;
+}
+body{
+	background-color: black;
+}
+h1{
+    color:white;
+}
+#result{
+    color:white;
+}
+
+@media screen and (min-width: 769px) {
+    #options{
+        width: 20%;
+        height: 1rem;
+    }
+    #start{
+        width: 20%;
+        height: 1rem;
+    }
+}
